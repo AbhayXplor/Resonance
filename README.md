@@ -1,55 +1,107 @@
-# Resonance - AI-Powered Call Monitoring System
+<div align="center">
+
+# 🎙️ Resonance
+
+### AI-Powered Real-Time Call Monitoring System
 
 Real-time emotion intelligence for customer support calls. Analyze customer emotions and coach agents in under 5 seconds - during the call, not after.
 
-![License](https://img.shields.io/badge/license-MIT-blue.svg)
-![Next.js](https://img.shields.io/badge/Next.js-14-black)
-![TypeScript](https://img.shields.io/badge/TypeScript-5.0-blue)
+[![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+[![Next.js](https://img.shields.io/badge/Next.js-14-black)](https://nextjs.org/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-5.0-blue)](https://www.typescriptlang.org/)
 
-## 🚀 Features
+[Features](#-features) • [Quick Start](#-quick-start) • [Demo](#-usage) • [Documentation](#-project-structure)
 
-- **Real-Time Emotion Detection** - Track anger, frustration, satisfaction, and neutral emotions using Gemini 2.5 Flash AI
-- **Live Transcription** - Instant speech-to-text with Groq Whisper Large V3 (95% accuracy)
-- **AI-Powered Suggestions** - Get intelligent response recommendations during calls
-- **Dual Audio Capture** - Captures both customer (from Google Meet) and agent (microphone) audio
-- **Analytics Dashboard** - Track call metrics, satisfaction scores, and performance
-- **Post-Call Analysis** - Upload recordings for detailed emotion and conversation analysis
+</div>
 
-## 🎯 Business Impact
+---
 
-- **40% reduction** in escalations
-- **5-second response time** for analysis
-- **95% accuracy** in transcription
-- **Real-time coaching** vs post-call analysis
-- **Works with Google Meet** - no special hardware needed
+## ✨ Features
+
+<table>
+<tr>
+<td width="50%">
+
+### 🎯 Real-Time Emotion Detection
+Track anger, frustration, satisfaction, and neutral emotions using **Gemini 2.5 Flash AI**
+
+### 📝 Live Transcription
+Instant speech-to-text with **Groq Whisper Large V3** (95% accuracy)
+
+### 💡 AI-Powered Suggestions
+Get intelligent response recommendations during calls
+
+</td>
+<td width="50%">
+
+### 🎤 Dual Audio Capture
+Captures both customer (from Google Meet) and agent (microphone) audio
+
+### 📊 Analytics Dashboard
+Track call metrics, satisfaction scores, and performance
+
+### 📁 Post-Call Analysis
+Upload recordings for detailed emotion and conversation analysis
+
+</td>
+</tr>
+</table>
+
+## 📈 Business Impact
+
+<div align="center">
+
+| Metric | Impact |
+|--------|--------|
+| 📉 Escalation Reduction | **40%** |
+| ⚡ Response Time | **5 seconds** |
+| 🎯 Transcription Accuracy | **95%** |
+| 💰 ROI Timeline | **3-6 months** |
+| 🔧 Setup Required | **No special hardware** |
+
+</div>
 
 ## 🛠️ Tech Stack
 
+<table>
+<tr>
+<td width="33%" align="center">
+
 ### Frontend
-- **Next.js 14** - React framework with App Router
-- **TypeScript** - Type-safe development
-- **Tailwind CSS** - Utility-first styling
-- **React Hooks** - State management
+![Next.js](https://img.shields.io/badge/Next.js-14-black?style=for-the-badge&logo=next.js)
+![TypeScript](https://img.shields.io/badge/TypeScript-5.0-blue?style=for-the-badge&logo=typescript)
+![Tailwind](https://img.shields.io/badge/Tailwind-CSS-38B2AC?style=for-the-badge&logo=tailwind-css)
+
+</td>
+<td width="33%" align="center">
 
 ### AI Services
-- **Google Gemini 2.5 Flash** - Emotion analysis and conversation intelligence
-- **Groq Whisper Large V3** - Ultra-fast speech-to-text transcription
-- **Hume AI** - Backup emotion detection (audio-based)
+![Gemini](https://img.shields.io/badge/Gemini-2.5_Flash-4285F4?style=for-the-badge&logo=google)
+![Groq](https://img.shields.io/badge/Groq-Whisper-orange?style=for-the-badge)
+![Hume](https://img.shields.io/badge/Hume-AI-purple?style=for-the-badge)
 
-### Backend & Database
-- **Supabase** - PostgreSQL database with real-time capabilities
-- **Next.js API Routes** - Serverless API endpoints
-- **WebRTC** - Real-time audio capture and processing
+</td>
+<td width="33%" align="center">
+
+### Backend
+![Supabase](https://img.shields.io/badge/Supabase-PostgreSQL-3ECF8E?style=for-the-badge&logo=supabase)
+![WebRTC](https://img.shields.io/badge/WebRTC-Audio-333333?style=for-the-badge)
+
+</td>
+</tr>
+</table>
 
 ## 📋 Prerequisites
 
-- Node.js 18+ and npm
-- Supabase account (free tier works)
-- API Keys:
-  - Google Gemini API key
-  - Groq API key
-  - Hume AI API key (optional)
-  - Supabase URL and keys
+```bash
+✅ Node.js 18+ and npm
+✅ Supabase account (free tier works)
+✅ API Keys:
+   • Google Gemini API key
+   • Groq API key
+   • Hume AI API key (optional)
+   • Supabase URL and keys
+```
 
 ## 🚀 Quick Start
 
@@ -101,33 +153,37 @@ Open [http://localhost:3000](http://localhost:3000) in your browser.
 
 ## 📖 Usage
 
-### Live Call Monitoring
+### 🔴 Live Call Monitoring
 
-1. Start a Google Meet call in another tab
-2. Navigate to `/live` in the app
-3. Click "Start Monitoring"
-4. Share your Meet tab and check "Share tab audio"
-5. Allow microphone access
-6. See real-time emotions, transcripts, and AI suggestions
+```
+1️⃣ Start a Google Meet call in another tab
+2️⃣ Navigate to /live in the app
+3️⃣ Click "Start Monitoring"
+4️⃣ Share your Meet tab and check "Share tab audio"
+5️⃣ Allow microphone access
+6️⃣ See real-time emotions, transcripts, and AI suggestions
+```
 
-### Upload Recording
+### 📁 Upload Recording
 
-1. Navigate to `/upload`
-2. Upload an audio file (WAV, MP3, WebM)
-3. View comprehensive analysis including:
-   - Full transcript
-   - Emotion timeline
-   - Conversation context
-   - AI suggestions
-   - Call summary
+```
+1️⃣ Navigate to /upload
+2️⃣ Upload an audio file (WAV, MP3, WebM)
+3️⃣ View comprehensive analysis:
+   • Full transcript
+   • Emotion timeline
+   • Conversation context
+   • AI suggestions
+   • Call summary
+```
 
-### Dashboard
+### 📊 Dashboard
 
 View analytics and recent calls at `/dashboard`:
-- Total calls and success rates
-- Average satisfaction scores
-- Emotion metrics
-- Recent call history
+- ✅ Total calls and success rates
+- 😊 Average satisfaction scores
+- 📈 Emotion metrics
+- 📞 Recent call history
 
 ## 🏗️ Project Structure
 
@@ -216,18 +272,22 @@ Resonance/
 
 ### Vercel (Recommended)
 
-1. Push your code to GitHub
-2. Import project in [Vercel](https://vercel.com)
-3. Add environment variables
-4. Deploy
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/AbhayXplor/Resonance)
+
+```bash
+1️⃣ Push your code to GitHub
+2️⃣ Import project in Vercel
+3️⃣ Add environment variables
+4️⃣ Deploy
+```
 
 ### Other Platforms
 
 The app can be deployed to any platform that supports Next.js:
-- Netlify
-- AWS Amplify
-- Railway
-- Render
+- 🌐 Netlify
+- ☁️ AWS Amplify
+- 🚂 Railway
+- 🎨 Render
 
 ## 🤝 Contributing
 
@@ -258,43 +318,77 @@ For support, email your-email@example.com or open an issue in the GitHub reposit
 
 ## 🗺️ Roadmap
 
-- [ ] Speaker diarization (identify who's speaking)
+<table>
+<tr>
+<td width="50%">
+
+### 🚀 Coming Soon
+- [ ] Speaker diarization
 - [ ] Multi-language support
 - [ ] Zoom/Teams integration
 - [ ] Mobile app
-- [ ] Advanced analytics and reporting
+
+</td>
+<td width="50%">
+
+### 🔮 Future
+- [ ] Advanced analytics
 - [ ] Custom emotion models
-- [ ] Integration with CRM systems
-- [ ] Real-time collaboration features
+- [ ] CRM integrations
+- [ ] Real-time collaboration
+
+</td>
+</tr>
+</table>
 
 ## 📊 Use Cases
 
-### Customer Support
-- Reduce escalations by 40%
-- Improve CSAT scores
-- Real-time agent coaching
-- Quality assurance automation
+<table>
+<tr>
+<td width="50%">
 
-### Sales Teams
-- Emotion-based lead scoring
-- Close rate optimization
-- Sales coaching and training
-- Deal risk detection
+### 🏢 Customer Support
+- ✅ Reduce escalations by 40%
+- ✅ Improve CSAT scores
+- ✅ Real-time agent coaching
+- ✅ Quality assurance automation
 
-### Healthcare
-- Patient communication analysis
-- Telehealth quality improvement
-- Compliance monitoring
-- Mental health crisis detection
+### 💼 Sales Teams
+- ✅ Emotion-based lead scoring
+- ✅ Close rate optimization
+- ✅ Sales coaching and training
+- ✅ Deal risk detection
 
-### Education
-- Student support optimization
-- Retention improvement
-- Crisis intervention
-- Quality assurance
+</td>
+<td width="50%">
+
+### 🏥 Healthcare
+- ✅ Patient communication analysis
+- ✅ Telehealth quality improvement
+- ✅ Compliance monitoring
+- ✅ Mental health crisis detection
+
+### 🎓 Education
+- ✅ Student support optimization
+- ✅ Retention improvement
+- ✅ Crisis intervention
+- ✅ Quality assurance
+
+</td>
+</tr>
+</table>
 
 ---
 
+<div align="center">
+
+### 🌟 Star this repo if you find it helpful!
+
 Built with ❤️ by [AbhayXplor](https://github.com/AbhayXplor)
-#   R e s o n a n c e  
+
+[⬆ Back to Top](#-resonance)
+
+</div>
+#   R e s o n a n c e 
+ 
  
